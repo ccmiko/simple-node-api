@@ -1,0 +1,16 @@
+{
+  "search.exclude": {
+    // コード検索で除外する対象
+    "**/node_modules": true
+  },
+  // 括弧の対応を色付けする設定
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  // 保存時に適用するフォーマッタ（prettier
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 保存時に実行するアクション
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
